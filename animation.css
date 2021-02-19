@@ -1,0 +1,94 @@
+@keyframes car1 {
+  0% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(1400px);
+  }
+}
+@keyframes car2 {
+  0% {
+    transform: translateX(500px);
+  }
+  100% {
+    transform: translateX(-1400px);
+  }
+}
+@keyframes car3 {
+  0% {
+    transform: translateX(500px);
+  }
+  100% {
+    transform: translateX(-1500px);
+  }
+}
+@keyframes moto {
+  0% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(1600px);
+  }
+}
+@keyframes moto2 {
+  0% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(1600px);
+  }
+}
+/* CLOUD */
+@keyframes cloud1 {
+  0% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(1500px);
+  }
+}
+@keyframes cloud2 {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(1500px);
+  }
+}
+@keyframes cloud3 {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(1500px);
+  }
+}
+@keyframes erro1 {
+  0% {
+    left: -20%;
+    top: 30%;
+    width: 2%;
+  }
+
+  100% {
+    left: 120%;
+    top: -20%;
+    width: 18%;
+  }
+}
+
+@keyframes erro2 {
+  0% {
+    top: 30%;
+    right: 25%;
+    width: 2%;
+    opacity: 0;
+  }
+
+  100% {
+    top: -35%;
+    right: 40%;
+    width: 20%;
+    opacity: 1;
+  }
+}
